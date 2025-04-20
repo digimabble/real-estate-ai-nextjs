@@ -15,7 +15,7 @@ const figtree = Figtree({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Lahomes Nextjs - Real Estate Management Admin Template',
+    template: '%s | La Regence Nextjs - Real Estate Management Admin Template',
     default: DEFAULT_PAGE_TITLE,
   },
   description: 'A fully responsive premium admin dashboard template, Real Estate Management Admin Template',

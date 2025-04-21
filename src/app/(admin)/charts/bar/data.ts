@@ -477,7 +477,7 @@ export const customDataLabelsChartOpts: ApexOptions = {
       },
     },
   },
-  colors: ['#4697ce', '#53389f', '#7f56da', '#ff86c8', '#e06d94', '#36404a', '#f8ac59', '#7dcc93', '#040505', '#63b7e6'],
+  colors: ['#4697ce', '#53389f', '#7f56da', '#ff86c8', '#e06d94', '#b68d40', '#f8ac59', '#7dcc93', '#040505', '#63b7e6'],
   dataLabels: {
     enabled: true,
     textAnchor: 'start',

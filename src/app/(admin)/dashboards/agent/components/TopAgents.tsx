@@ -18,7 +18,7 @@ const TopAgents = () => {
               <Link href="" className="text-white fw-medium fs-16">
               La Regence Group , Pvt Ltd
               </Link>
-              <p className="mb-0 text-white-50">Markova , USA</p>
+              <p className="mb-0 text-white-50">Brussels, Belgium</p>
               <div className="d-flex flex-wrap gap-2 align-items-center mt-1">
                 <ul className="d-flex text-warning m-0 fs-18  list-unstyled">
                   <li>

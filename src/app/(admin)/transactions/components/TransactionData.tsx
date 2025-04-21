@@ -123,7 +123,7 @@ const TransactionData = () => {
                           </div>
                         </td>
                         <td>{item.purchaseDate.toLocaleString('en-us', { day: '2-digit', month: '2-digit', year: 'numeric' })}</td>
-                        <td>${item.amount}</td>
+                        <td>€{item.amount}</td>
                         <td>
                           <div className="d-flex gap-2">
                             <div>
@@ -223,7 +223,7 @@ const TransactionData = () => {
                   <Link href="" className="text-dark fw-semibold fs-18">
                     Ray C. Nichols
                   </Link>
-                  <p className="mb-0">raycnichols@teleworm.us</p>
+                  <p className="mb-0">raycnichols@teleworm.be</p>
                 </div>
                 <div className="ms-auto">
                   <span className="badge bg-primary-subtle text-primary py-1 px-2 fs-12">Premium</span>

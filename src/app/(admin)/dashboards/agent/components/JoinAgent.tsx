@@ -49,7 +49,7 @@ const JoinAgent = async () => {
               </div>
             </div>
             <div>
-              <p className="text-muted fw-medium mb-0">May 2024</p>
+              <p className="text-muted fw-medium mb-0">May 2025</p>
             </div>
           </div>
         ))}

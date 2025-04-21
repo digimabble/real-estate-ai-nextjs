@@ -72,7 +72,7 @@ const PropertiesCard = ({ bath, beds, flor, size: ft, icon, id, location, name, 
                 <IconifyIcon icon="solar:scale-broken" className="align-middle" />
               </span>
               &nbsp;
-              {ft}ft
+              {ft}m²
             </span>
           </Col>
           <Col lg={4} xs={4}>

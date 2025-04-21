@@ -19,7 +19,7 @@ const PropertyAddCard = () => {
             <h4 className="mb-1">
               Dvilla Residences Batu<span className="fs-14 text-muted ms-1">(Residences)</span>
             </h4>
-            <p className="mb-1">4604 , Philli Lane Kiowa U.S.A</p>
+            <p className="mb-1">4604 , Philli Lane Kiowa Belgium</p>
             <h5 className="text-dark fw-medium mt-3">Price :</h5>
             <h4 className="fw-semibold mt-2 text-muted">{currency}8,930.00</h4>
           </div>

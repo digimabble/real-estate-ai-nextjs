@@ -35,7 +35,7 @@ const PropertiesChart = () => {
       },
     },
     labels: ['Vacant', 'Occupied', 'Unlisted'],
-    colors: ['#027ef4', '#f0934e', '#47ad94'],
+    colors: ['#027ef4', '#36404a', '#47ad94'],
     dataLabels: {
       enabled: false,
     },

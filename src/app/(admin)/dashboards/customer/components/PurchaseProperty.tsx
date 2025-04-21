@@ -78,7 +78,7 @@ const PurchaseProperty = () => {
                   Tiia Karppinen
                 </Link>
               </span>
-              <p className="mb-0 fs-14 text-muted">tiiakarppinen@teleworm.us</p>
+              <p className="mb-0 fs-14 text-muted">tiiakarppinen@teleworm.be</p>
             </div>
             <div className="ms-auto">
               <IconifyIcon icon="ri:checkbox-circle-line" className=" fs-20 text-success" />

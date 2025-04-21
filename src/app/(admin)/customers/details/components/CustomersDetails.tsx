@@ -35,7 +35,7 @@ const CustomersDetails = () => {
           <div>
             <h3 className="fw-semibold mb-1">Daavid Nummi</h3>
             <Link href="" className="link-primary fw-medium fs-14">
-              EastTribune.nl
+              laregence.be
             </Link>
           </div>
         </div>
@@ -67,11 +67,11 @@ const CustomersDetails = () => {
         <Row className="my-4">
           <Col lg={3}>
             <p className="text-dark fw-semibold fs-16 mb-1">Email Address :</p>
-            <p className="mb-0">daavidnumminen@teleworm.us</p>
+            <p className="mb-0">daavidnumminen@teleworm.be</p>
           </Col>
           <Col lg={3}>
             <p className="text-dark fw-semibold fs-16 mb-1">Phone Number :</p>
-            <p className="mb-0">+231 06-75820711</p>
+            <p className="mb-0">+32 06-75820711</p>
           </Col>
           <Col lg={4}>
             <p className="text-dark fw-semibold fs-16 mb-1">Location :</p>

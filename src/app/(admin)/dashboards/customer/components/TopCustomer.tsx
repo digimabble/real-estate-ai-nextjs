@@ -51,7 +51,7 @@ const TopCustomer = async () => {
                 </div>
               </div>
               <div>
-                <p className="text-muted fw-medium mb-0">${item.amount}</p>
+                <p className="text-muted fw-medium mb-0">€{item.amount}</p>
               </div>
             </div>
           ))}

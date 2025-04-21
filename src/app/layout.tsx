@@ -66,7 +66,7 @@ export default function RootLayout({
         <div id="splash-screen">
           <Image alt="Logo" width={112} height={24} src={logoDark} style={{ height: '6%', width: 'auto' }} priority />
         </div>
-        <NextTopLoader color="#604ae3" showSpinner={false} />
+        <NextTopLoader color="#1e534f" showSpinner={false} />
         <div id="__next_splash">
           <AppProvidersWrapper>{children}</AppProvidersWrapper>
         </div>

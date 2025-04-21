@@ -81,33 +81,33 @@ export const revenueData: RevenueType[] = [
 
 export const countryData: CountryType[] = [
   {
-    country: 'United States',
+    country: 'Brussels',
     progress: 82.05,
     view: 659,
-    icon: 'circle-flags:us',
+    icon: 'circle-flags:be',
     variant: 'secondary',
   },
   {
-    country: 'Russia',
+    country: 'Wallonia',
     progress: 70.5,
     view: 485,
-    icon: 'circle-flags:ru',
+    icon: 'circle-flags:be',
     variant: 'info',
   },
   {
-    country: 'China',
+    country: 'Flanders',
     progress: 65.8,
     view: 355,
-    icon: 'circle-flags:cn',
+    icon: 'circle-flags:be',
     variant: 'warning',
   },
-  {
-    country: 'Canada',
-    progress: 55.8,
-    view: 204,
-    icon: 'circle-flags:ca',
-    variant: 'success',
-  },
+  // { €
+  //   country: 'Canada',
+  //   progress: 55.8,
+  //   view: 204,
+  //   icon: 'circle-flags:ca',
+  //   variant: 'success',
+  // },
 ]
 
 export const salesFunnelOptions: ApexOptions = {
@@ -141,7 +141,7 @@ export const salesFunnelOptions: ApexOptions = {
   markers: {
     size: 0,
   },
-  colors: ['#604ae3'],
+  colors: ['#1e534f'],
   tooltip: {
     fixed: {
       enabled: false,
@@ -235,7 +235,7 @@ export const agentOptions: ApexOptions = {
       borderRadius: 8,
     },
   },
-  colors: ['#604ae3', '#f8ac59'],
+  colors: ['#1e534f', '#f8ac59'],
   tooltip: {
     shared: true,
     y: [
@@ -310,7 +310,7 @@ export const goalsOptions: ApexOptions = {
   stroke: {
     dashArray: 4,
   },
-  colors: ['#604ae3'],
+  colors: ['#1e534f'],
   series: [75],
   labels: ['Achieved'],
   responsive: [

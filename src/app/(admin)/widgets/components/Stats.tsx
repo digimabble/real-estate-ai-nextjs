@@ -9,7 +9,7 @@ const StatsCard = ({ stat }: { stat: StatType }) => {
     <Card>
       <CardBody className="overflow-hidden position-relative">
         <IconifyIcon icon={icon} className={`fs-36 text-${iconColor}`} />
-        <h3 className="mb-0 fw-bold mt-3 mb-1">${amount}k</h3>
+        <h3 className="mb-0 fw-bold mt-3 mb-1">€{amount}k</h3>
         <p className="text-muted">{title}</p>
         <span className={`badge fs-12 badge-soft-${changeColor}`}>
           <IconifyIcon icon="ti:arrow-badge-up" />

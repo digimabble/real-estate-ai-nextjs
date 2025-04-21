@@ -1,7 +1,4 @@
-import flagBrImg from '@/assets/images/flag/br.svg'
-import flagCaImg from '@/assets/images/flag/ca.svg'
-import flagRuImg from '@/assets/images/flag/ru.svg'
-import flagUsImg from '@/assets/images/flag/us.svg'
+import flagBeImg from '@/assets/images/flag/be.png'
 import { ApexOptions } from 'apexcharts'
 import { StaticImageData } from 'next/image'
 
@@ -16,35 +13,27 @@ export type CustomersCountryType = {
 
 export const customersCountryData: CustomersCountryType[] = [
   {
-    country: 'Brazil',
+    country: 'Brussels',
     amount: '15,781',
     change: '10.0',
     progress: 30,
-    image: flagBrImg,
+    image: flagBeImg,
     totalCustomers: 3474,
   },
   {
-    country: 'Canada',
-    amount: '23,263',
-    change: '4.1',
-    progress: 70,
-    image: flagCaImg,
-    totalCustomers: 7843,
-  },
-  {
-    country: 'Russia',
+    country: 'Flanders',
     amount: '30,562',
     change: '7.1',
     progress: 50,
-    image: flagRuImg,
+    image: flagBeImg,
     totalCustomers: 5933,
   },
   {
-    country: 'USA',
+    country: 'Wallonia',
     amount: '41,341',
     change: '12.0',
     progress: 80,
-    image: flagUsImg,
+    image: flagBeImg,
     totalCustomers: 8901,
   },
 ]
@@ -75,7 +64,7 @@ export const propertyOptions: ApexOptions = {
       right: 0,
     },
   },
-  colors: ['#efecfc', '#604ae3', '#604ae3', '#efecfc'],
+  colors: ['#efecfc', '#1e534f', '#1e534f', '#efecfc'],
   dataLabels: {
     enabled: !1,
   },
@@ -107,7 +96,7 @@ export const propertyOptions: ApexOptions = {
       {
         formatter: function (y) {
           if (typeof y !== 'undefined') {
-            return '$' + y.toFixed(2) + 'k'
+            return '€' + y.toFixed(2) + 'k'
           }
           return y
         },
@@ -154,7 +143,7 @@ export const customersInvestOptions: ApexOptions = {
       colors: ['#304758'],
     },
   },
-  colors: ['#604ae3'],
+  colors: ['#1e534f'],
   legend: {
     show: true,
     horizontalAlign: 'center',
@@ -240,7 +229,7 @@ export const customerVisit: ApexOptions = {
   markers: {
     size: 0,
   },
-  colors: ['#604ae3'],
+  colors: ['#1e534f'],
   tooltip: {
     fixed: {
       enabled: false,

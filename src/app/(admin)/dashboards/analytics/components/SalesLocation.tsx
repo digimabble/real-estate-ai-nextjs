@@ -10,24 +10,16 @@ const SalesLocation = () => {
     markersSelectable: true,
     markers: [
       {
-        name: 'Canada',
-        coords: [56.1304, -106.3468],
+        name: 'Brussels',
+        coords: [50.5039, 4.4699],
       },
       {
-        name: 'Brazil',
-        coords: [-14.235, -51.9253],
+        name: 'Wallonia',
+        coords: [50.5039, 4.4699],
       },
       {
-        name: 'Russia',
-        coords: [61, 105],
-      },
-      {
-        name: 'China',
-        coords: [35.8617, 104.1954],
-      },
-      {
-        name: 'United States',
-        coords: [37.0902, -95.7129],
+        name: 'Flanders',
+        coords: [50.5039, 4.4699],
       },
     ],
     markerStyle: {
@@ -50,7 +42,7 @@ const SalesLocation = () => {
       <Card>
         <CardHeader className="d-flex justify-content-between align-items-center pb-1">
           <div>
-            <CardTitle as={'h4'}>Most Sales Location</CardTitle>
+            <CardTitle as={'h4'}>Most Sales Region</CardTitle>
           </div>
           <Dropdown>
             <DropdownToggle
@@ -58,14 +50,14 @@ const SalesLocation = () => {
               className="btn btn-sm btn-outline-light rounded content-none icons-center"
               data-bs-toggle="dropdown"
               aria-expanded="false">
-              Asia <IconifyIcon className="ms-1" width={16} height={16} icon="ri:arrow-down-s-line" />
+              Belgium <IconifyIcon className="ms-1" width={16} height={16} icon="ri:arrow-down-s-line" />
             </DropdownToggle>
-            <DropdownMenu className="dropdown-menu-end">
-              <DropdownItem>U.S.A</DropdownItem>
+            {/* <DropdownMenu className="dropdown-menu-end">
+              <DropdownItem>Belgium</DropdownItem>
               <DropdownItem>Russia</DropdownItem>
               <DropdownItem>China</DropdownItem>
               <DropdownItem>Canada</DropdownItem>
-            </DropdownMenu>
+            </DropdownMenu> */}
           </Dropdown>
         </CardHeader>
         <CardBody>
@@ -77,7 +69,7 @@ const SalesLocation = () => {
             </Col>
           </Row>
           <div className="progress mt-5 overflow-visible" style={{ height: 25 }}>
-            <div
+            {/* <div
               className="progress-bar bg-primary  position-relative overflow-visible rounded-start"
               role="progressbar"
               style={{ width: '20%' }}
@@ -91,7 +83,7 @@ const SalesLocation = () => {
                 |
               </p>
               <p className="mb-0  text-start ps-1 ps-lg-2 text-white fs-14">71.1%</p>
-            </div>
+            </div> */}
             <div
               className="progress-bar bg-primary bg-opacity-75 position-relative overflow-visible"
               role="progressbar"
@@ -100,14 +92,14 @@ const SalesLocation = () => {
               aria-valuemin={0}
               aria-valuemax={100}>
               <p className="progress-value text-start text-dark mb-0 mt-1 fs-14 fw-medium" style={{ left: '0%', top: '-50px' }}>
-                USA{' '}
+                Belgium{' '}
               </p>
               <p className="progress-value text-start text-light mb-0 mt-1 fs-14 fw-medium" style={{ left: '0%', top: '-30px' }}>
                 |{' '}
               </p>
               <p className="mb-0  text-start ps-1 ps-lg-2 text-white fs-14">67.0%</p>
             </div>
-            <div
+            {/* <div
               className="progress-bar bg-primary bg-opacity-50 position-relative overflow-visible"
               role="progressbar"
               style={{ width: '20%' }}
@@ -151,7 +143,7 @@ const SalesLocation = () => {
                 |{' '}
               </p>
               <p className="mb-0  text-start ps-1 ps-lg-2 text-white fs-14">38.8%</p>
-            </div>
+            </div> */}
           </div>
         </CardBody>
       </Card>

@@ -53,7 +53,7 @@ export const propertyStatusData: PropertyStatusType[] = [
 export const reviewData: ReviewType[] = [
   {
     name: 'Esther Howard',
-    country: 'U.S.A',
+    country: 'Belgium',
     userName: 'kasyrhh',
     description:
       'The team at agent went above and beyond to understand my needs and tailor their solutions to fit my business requirements Not only did they exceed our expectations ',

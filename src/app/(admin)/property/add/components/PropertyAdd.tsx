@@ -183,7 +183,7 @@ const PropertyAdd = () => {
                     <option>United Kingdom</option>
                     <option value="Fran">France</option>
                     <option value="Netherlands">Netherlands</option>
-                    <option value="U.S.A">U.S.A</option>
+                    <option value="Belgium">Belgium</option>
                     <option value="Denmark">Denmark</option>
                     <option value="Canada">Canada</option>
                     <option value="Australia">Australia</option>

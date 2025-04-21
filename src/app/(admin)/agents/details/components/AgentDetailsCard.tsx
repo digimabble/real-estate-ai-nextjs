@@ -190,7 +190,7 @@ const AgentDetailsCard = () => {
         <div className="mt-3">
           <p className="d-flex align-items-center gap-2">
             <IconifyIcon icon="solar:map-point-wave-bold-duotone" className="fs-18 text-primary" />
-            Lincoln Drive Harrisburg, PA 17101 U.S.A
+            Lincoln Drive Harrisburg, PA 17101 Belgium
           </p>
           <p className="d-flex align-items-center gap-2">
             <IconifyIcon icon="solar:outgoing-call-rounded-bold-duotone" className="fs-18 text-primary" />

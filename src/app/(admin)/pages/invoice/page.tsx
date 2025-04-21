@@ -33,7 +33,7 @@ const InvoicePage = () => {
                   <CardTitle as={'h5'} className="mb-2">
                     Invoice: #RB89562
                   </CardTitle>
-                  <p>10 May, 2024</p>
+                  <p>10 May, 2025</p>
                 </div>
               </div>
               <Row className="mt-3">
@@ -112,7 +112,7 @@ const InvoicePage = () => {
                       <span className="fw-medium">Discount (10%) :</span>
                       <span className="float-end"> &nbsp;&nbsp;&nbsp; {currency}226.659</span>
                     </p>
-                    <h3>{currency}2039.931 USD</h3>
+                    <h3>{currency}2039.931 EUR</h3>
                   </div>
                   <div className="clearfix" />
                 </Col>

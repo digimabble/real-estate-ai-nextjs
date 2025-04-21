@@ -23,7 +23,7 @@ const PropertyDetails = () => {
               </Link>
               <p className="d-flex align-items-center gap-1 mt-1 mb-0">
                 <IconifyIcon icon="solar:map-point-wave-bold-duotone" className="fs-18 text-primary" />
-                1668 Lincoln Drive Harrisburg, PA 17101 U.S.A
+                1668 Lincoln Drive, Brussels 1000, Belgium
               </p>
             </div>
             <div>
@@ -159,7 +159,7 @@ const PropertyDetails = () => {
             </Link>
             <div>
               <p className="mb-0 d-flex align-items-center gap-1">
-                <IconifyIcon icon="solar:calendar-date-broken" className="fs-18 text-primary" /> 10 May 2024
+                <IconifyIcon icon="solar:calendar-date-broken" className="fs-18 text-primary" /> 10 May 2025
               </p>
             </div>
           </div>

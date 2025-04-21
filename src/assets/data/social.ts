@@ -1,13 +1,4 @@
-import avatar1 from '@/assets/images/users/avatar-1.jpg'
 import avatar10 from '@/assets/images/users/avatar-10.jpg'
-import avatar2 from '@/assets/images/users/avatar-2.jpg'
-import avatar3 from '@/assets/images/users/avatar-3.jpg'
-import avatar4 from '@/assets/images/users/avatar-4.jpg'
-import avatar5 from '@/assets/images/users/avatar-5.jpg'
-import avatar6 from '@/assets/images/users/avatar-6.jpg'
-import avatar7 from '@/assets/images/users/avatar-7.jpg'
-import avatar8 from '@/assets/images/users/avatar-8.jpg'
-import avatar9 from '@/assets/images/users/avatar-9.jpg'
 import { ChatMessageType, EmailType, GroupType, UserType } from '@/types/data'
 import { addOrSubtractDaysFromDate, addOrSubtractMinutesFromDate } from '@/utils/date'
 import { userData } from './other'
@@ -109,12 +100,12 @@ const defaultTo: UserType = {
   mutualCount: 56,
   name: 'Gilbert Chicoine',
   avatar: avatar10,
-  email: 'jamesbridge@teleworm.us',
+  email: 'jamesbridge@teleworm.be',
   message: 'Hey! Okay, thank you for letting me know. See you!',
   time: addOrSubtractMinutesFromDate(650),
   contact: '456 9595 9594',
-  location: 'California, USA',
-  languages: ['English', 'German', 'Spanish'],
+  location: 'Brussels, Belgium',
+  languages: ['English', 'Dutch', 'French'],
   activityStatus: 'online',
 }
 
@@ -510,7 +501,7 @@ export const emailsData: EmailType[] = [
     deleted: false,
   },
   {
-    id: '2024',
+    id: '2025',
     fromId: '102',
     toId: '101',
     subject: 'You can now use your storage in Google Drive',

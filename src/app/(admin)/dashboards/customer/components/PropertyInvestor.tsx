@@ -20,11 +20,11 @@ const PropertyInvestor = () => {
             <div>
               <h4 className="mb-1">
                 <Link href="/customers/details" className="mb-1 link-dark fw-semibold">
-                  Daavid Nummi
+                Philippe Dubois
                 </Link>
               </h4>
               <Link href="" className="link-primary fw-medium fs-14">
-                EastTribune.nl
+              laregence.be
               </Link>
               <ul className="list-inline d-flex flex-wrap gap-1 mb-0 align-items-center mt-2">
                 <li className="list-inline-item">
@@ -42,14 +42,14 @@ const PropertyInvestor = () => {
                     </span>
                   </Button>
                 </li>
-                <li className="list-inline-item">
+                {/* <li className="list-inline-item">
                   <Button variant="soft-info" className="d-flex align-items-center justify-content-center avatar-sm ">
                     <span>
                       {' '}
                       <IconifyIcon width={20} height={20} icon="ri:twitter-fill" />
                     </span>
                   </Button>
-                </li>
+                </li> */}
                 <li className="list-inline-item">
                   <Button variant="soft-success" className="d-flex align-items-center justify-content-center avatar-sm">
                     <span>

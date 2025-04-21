@@ -254,7 +254,7 @@ const ProfileDetail = ({ selectedUser }: { selectedUser: UserType }) => {
                   Phone Number:
                 </strong>
               </p>
-              <p>+1 {selectedUser.contact}</p>
+              <p>+32 {selectedUser.contact}</p>
               <p className="mt-3 mb-1">
                 <strong className="icons-center">
                   <IconifyIcon icon="ri:map-pin-line" className="me-1" />
@@ -392,12 +392,12 @@ const ChatArea = ({ selectedUser }: { selectedUser: UserType }) => {
     mutualCount: 56,
     name: 'Gilbert Chicoine',
     avatar: avatar10,
-    email: 'jamesbridge@teleworm.us',
+    email: 'jamesbridge@teleworm.be',
     message: 'Hey! Okay, thank you for letting me know. See you!',
     time: addOrSubtractMinutesFromDate(650),
-    contact: '456 9595 9594',
+    contact: '+32 456 959594',
     emailMessage: '',
-    location: 'California, USA',
+    location: 'Brussels, Belgium',
     languages: ['English', 'German', 'Spanish'],
     activityStatus: 'typing',
     status: 'Active',
@@ -465,7 +465,7 @@ const ChatArea = ({ selectedUser }: { selectedUser: UserType }) => {
           <IconifyIcon icon="bx:menu" className="fs-18" />
         </Button>
         <div className="d-flex align-items-center">
-          <Image src={selectedUser.avatar} className="me-2 rounded" width={36} height={36} alt="avatar-4" />
+          <Image src={selectedUser.avatar} className="me-2 rounded" width={36} height={36} alt="avatar-2" />
           <div className="d-none d-md-flex flex-column">
             <h5 className="my-0 fs-16 fw-semibold">
               <span role="button" onClick={chatProfile.toggle} className="text-dark">

@@ -57,7 +57,7 @@ export const extendedTableData: ExtendedBasicTableType[] = [
     name: 'James E. Chamb',
     avatar: avatar1,
     title: 'UI/UX Designer',
-    email: 'jamesechambliss@teleworm.us',
+    email: 'jamesechambliss@teleworm.be',
     role: 'Admin',
   },
   {

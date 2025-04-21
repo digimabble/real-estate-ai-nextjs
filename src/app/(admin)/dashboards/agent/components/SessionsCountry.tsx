@@ -8,21 +8,21 @@ const SessionsCountry = () => {
     <Col lg={7}>
       <Card>
         <CardHeader className="d-flex  justify-content-between align-items-center border-0">
-          <CardTitle as={'h4'}>Sessions by Country</CardTitle>
+          <CardTitle as={'h4'}>Sessions by Region</CardTitle>
           <Dropdown>
             <DropdownToggle
               as={'a'}
               className="btn btn-sm btn-outline-light rounded content-none icons-center"
               data-bs-toggle="dropdown"
               aria-expanded="false">
-              Asia <IconifyIcon className="ms-1" width={16} height={16} icon="ri:arrow-down-s-line" />
+              Belgium <IconifyIcon className="ms-1" width={16} height={16} icon="ri:arrow-down-s-line" />
             </DropdownToggle>
-            <DropdownMenu className="dropdown-menu-end">
-              <DropdownItem>U.S.A</DropdownItem>
+            {/* <DropdownMenu className="dropdown-menu-end">
+              <DropdownItem>Belgium</DropdownItem>
               <DropdownItem>Russia</DropdownItem>
               <DropdownItem>China</DropdownItem>
               <DropdownItem>Canada</DropdownItem>
-            </DropdownMenu>
+            </DropdownMenu> */}
           </Dropdown>
         </CardHeader>
         <CardBody>

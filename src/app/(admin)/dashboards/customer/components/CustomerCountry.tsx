@@ -14,7 +14,7 @@ const CountryCard = ({ amount, change, country, image, progress, totalCustomers 
           <div>
             <h4 className="text-dark fw-semibold mb-1">{country}</h4>
             <p className="mb-0 fw-medium">
-              <span className="text-dark fw-semibold"> ${amount} </span> Per Month
+              <span className="text-dark fw-semibold"> €{amount} </span> Per Month
             </p>
           </div>
         </div>

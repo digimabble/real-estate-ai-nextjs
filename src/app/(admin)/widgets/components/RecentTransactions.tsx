@@ -23,7 +23,7 @@ const RecentTransactions = async () => {
               {transactionsData.map((item, idx) => (
                 <tr key={idx}>
                   <td>{item.purchaseDate.toLocaleString('en-us', { day: '2-digit', month: 'long', year: 'numeric' })}</td>
-                  <td>${item.amount}</td>
+                  <td>€{item.amount}</td>
                   <td>
                     <span className={`badge bg-${item.status == 'Dr' ? 'danger' : 'success'}`}>{item.status}</span>
                   </td>

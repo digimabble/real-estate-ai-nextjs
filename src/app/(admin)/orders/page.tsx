@@ -94,7 +94,7 @@ const OrdersPage = async () => {
                           <td>{item.purchaseDate.toLocaleString('en-us', { day: '2-digit', month: '2-digit', year: 'numeric' })}</td>
                           <td>{item.user?.contact}</td>
                           <td>{item.property?.propertyType}</td>
-                          <td>${item.amount}</td>
+                          <td>€{item.amount}</td>
                           <td>{item.property?.location}</td>
                           <td>
                             <span

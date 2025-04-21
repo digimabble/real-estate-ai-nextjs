@@ -1125,7 +1125,7 @@ const AgentDetails = () => {
             <div className="d-flex align-items-center bg-light justify-content-between p-3 rounded">
               <div>
                 <h5 className="fw-medium mb-1 text-dark">Walker Art Center</h5>
-                <p className="mb-2">Lincoln Drive Harrisburg, PA 17101 U.S.A</p>
+                <p className="mb-2">Lincoln Drive Harrisburg, PA 17101 Belgium</p>
                 <div className="d-flex gap-2 align-items-center">
                   <ul className="d-flex text-warning m-0 fs-18  list-unstyled">
                     <li>

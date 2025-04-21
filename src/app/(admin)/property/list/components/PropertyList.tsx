@@ -74,7 +74,7 @@ const PropertyList = async () => {
                         </div>
                       </div>
                     </td>
-                    <td>{item.size}ft</td>
+                    <td>{item.size}m²</td>
                     <td>Residences</td>
                     <td>
                       {' '}
@@ -89,7 +89,7 @@ const PropertyList = async () => {
                       </p>
                     </td>
                     <td>{item.country}</td>
-                    <td>${item.price}.00</td>
+                    <td>€{item.price}.00</td>
                     <td>
                       <div className="d-flex gap-2">
                         <Button variant="light" size="sm">

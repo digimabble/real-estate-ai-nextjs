@@ -24,10 +24,10 @@ const CustomerAddCard = () => {
               </div>
             </div>
             <p className="text-muted fw-medium fs-14 mb-1">
-              <span className="text-dark me-1">Email Address : </span> daavidnumminen@teleworm.us
+              <span className="text-dark me-1">Email Address : </span> daavidnumminen@teleworm.be
             </p>
             <p className="text-muted fw-medium fs-14 mb-1">
-              <span className="text-dark me-1">Contact Number : </span> +231 06-75820711
+              <span className="text-dark me-1">Contact Number : </span> +32 06-75820711
             </p>
             <p className="text-muted fw-medium fs-14 mb-1">
               <span className="text-dark me-1">Address : </span> Schoolstraat 161 5151 HH Drunen

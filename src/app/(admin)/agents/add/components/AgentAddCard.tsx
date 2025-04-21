@@ -25,7 +25,7 @@ const AgentAddCard = () => {
           </p>
           <p className="d-flex align-items-center gap-2 mt-2">
             <IconifyIcon icon="solar:map-point-wave-bold-duotone" className="fs-18 text-primary" />
-            Lincoln Drive Harrisburg, PA 17101 U.S.A
+            Lincoln Drive Harrisburg, PA 17101 Belgium
           </p>
           <h5 className="my-3">Social Media :</h5>
           <ul className="list-inline d-flex gap-1 mb-0 align-items-center">

@@ -73,7 +73,7 @@ const Transaction = async () => {
                       </td>
                       <td>IN-4563</td>
                       <td> {item.purchaseDate.toLocaleString('en-us', { day: 'numeric', month: 'short', year: 'numeric' })}</td>
-                      <td> ${item.amount}</td>
+                      <td> €{item.amount}</td>
                       <td> {item.paymentType}</td>
                       <td>
                         {' '}

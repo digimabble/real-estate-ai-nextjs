@@ -59,7 +59,7 @@ const CustomerGridCard = ({ user, status, propertyOwn, propertyView, invest }: C
             </Col>
             <Col lg={4}>
               <p className="fw-medium mb-2">Invest On Property</p>
-              <h5 className="mb-0 fw-semibold text-dark">${invest}</h5>
+              <h5 className="mb-0 fw-semibold text-dark">€{invest}</h5>
             </Col>
           </Row>
           <h4 className="mt-3 fs-17">Social Information :</h4>

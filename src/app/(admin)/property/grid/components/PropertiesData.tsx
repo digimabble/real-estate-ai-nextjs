@@ -90,7 +90,7 @@ const PropertiesCard = ({ bath, beds, flor, size: ft, icon, id, location, name, 
         {type == 'Sold' ? (
           <p className="fw-medium text-muted text-decoration-line-through fs-16 mb-0">${price}.00 </p>
         ) : (
-          <p className="fw-medium text-dark fs-16 mb-0">${price}.00 </p>
+          <p className="fw-medium text-dark fs-16 mb-0">€{price}.00 </p>
         )}
         <div>
           <Link href="" className="link-primary fw-medium">

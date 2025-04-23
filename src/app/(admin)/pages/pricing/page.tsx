@@ -15,7 +15,7 @@ const PricingCard = ({ plan }: { plan: PricingType }) => {
         {isPopular && <div className="pricing-ribbon pricing-ribbon-primary float-end">Popular</div>}
         <h5 className="mt-0 mb-3 fs-14 text-uppercase fw-semibold text-white">{name}</h5>
         <h2 className="mt-0 mb-0 fw-bold text-white">
-          ${price} <span className="fs-14 fw-medium text-white text-opacity-50">/ Month</span>
+        €{price} <span className="fs-14 fw-medium text-white text-opacity-50">/ Month</span>
         </h2>
       </CardBody>
       <CardBody className="pt-0">

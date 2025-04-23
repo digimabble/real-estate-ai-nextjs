@@ -44,7 +44,7 @@ export const basicChartOpts: ApexOptions = {
   },
   yaxis: {
     title: {
-      text: '$ (thousands)',
+      text: '€ (thousands)',
     },
   },
   fill: {
@@ -63,7 +63,7 @@ export const basicChartOpts: ApexOptions = {
   tooltip: {
     y: {
       formatter: function (val: any) {
-        return '$ ' + val + ' thousands'
+        return '€ ' + val + ' thousands'
       },
     },
   },

@@ -77,7 +77,7 @@ const TransactionHistory = async () => {
                       <td>{item.purchaseDate.toLocaleString('en-us', { day: '2-digit', month: '2-digit', year: 'numeric' })}</td>
                       <td>{item.property?.propertyType}</td>
                       <td>{item.property?.location}</td>
-                      <td>${item.amount}</td>
+                      <td>€{item.amount}</td>
                       <td>
                         <span className="badge bg-success text-white fs-11">Paid</span>
                       </td>

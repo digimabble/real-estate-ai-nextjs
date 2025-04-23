@@ -250,7 +250,7 @@ export const agentOptions: ApexOptions = {
       {
         formatter: function (y) {
           if (typeof y !== 'undefined') {
-            return '$' + y.toFixed(2) + 'k'
+            return '€' + y.toFixed(2) + 'k'
           }
           return y
         },

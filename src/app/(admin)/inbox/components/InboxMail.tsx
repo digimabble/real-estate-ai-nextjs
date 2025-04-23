@@ -1,3 +1,4 @@
+import { useGmailEmails } from '@/app/hooks/useGmailEmail'
 import IconifyIcon from '@/components/wrappers/IconifyIcon'
 import SimplebarReactClient from '@/components/wrappers/SimplebarReactClient'
 import { getAllUsers } from '@/helpers/data'
@@ -7,6 +8,7 @@ import Link from 'next/link'
 import { CardBody, Dropdown, DropdownItem, DropdownMenu, DropdownToggle } from 'react-bootstrap'
 
 const InboxMail = () => {
+  const { emails, loading } = useGmailEmails();
   const inboxUser = useFetchData(getAllUsers)
   return (
     <div className="offcanvas-xl offcanvas-end" tabIndex={-1} id="emaillist" aria-labelledby="emaillistLabel">
@@ -65,7 +67,7 @@ const InboxMail = () => {
                     <Link href="" className="d-block">
                       <div className={`mail-select d-flex align-items-center p-3 ${idx == 1 && 'selected'}  m-1 rounded`}>
                         <div className="position-relative">
-                          <Image src={item.avatar} alt="avatar" className="avatar rounded-circle flex-shrink-0" />
+                          <Image src={item.avatar}  alt="avatar" className="avatar rounded-circle flex-shrink-0" />
                         </div>
                         <div className="d-block ms-3 flex-grow-1">
                           <div className="d-flex justify-content-between align-items-center mb-1">
@@ -73,6 +75,8 @@ const InboxMail = () => {
                             <div>
                               <p className={` fs-13 mb-0 ${idx == 1 ? 'text-white' : 'text-muted'}`}>
                                 {item.time.toLocaleString('en-us', { hour: '2-digit', minute: '2-digit' })}
+                                {/* no timestamp in Gmail list, optional */}
+                                Now
                               </p>
                             </div>
                           </div>

@@ -460,113 +460,12 @@ const ChatArea = ({ selectedUser }: { selectedUser: UserType }) => {
 
   return (
     <Card className="position-relative overflow-hidden">
-      <CardHeader className="d-flex align-items-center mh-100">
-        <Button variant="light" onClick={chatList.toggle} className="d-xxl-none d-flex align-items-center px-2 me-2" type="button">
-          <IconifyIcon icon="bx:menu" className="fs-18" />
-        </Button>
-        <div className="d-flex align-items-center">
-          <Image src={selectedUser.avatar} className="me-2 rounded" width={36} height={36} alt="avatar-2" />
-          <div className="d-none d-md-flex flex-column">
-            <h5 className="my-0 fs-16 fw-semibold">
-              <span role="button" onClick={chatProfile.toggle} className="text-dark">
-                {selectedUser.name}
-              </span>
-            </h5>
-            <p className={`mb-0 text-${selectedUser.activityStatus === 'offline' ? 'danger' : 'success'} fw-semibold fst-italic`}>
-              {selectedUser.activityStatus != 'typing' && <IconifyIcon icon="bxs:circle" className="fs-13" />}
-              {selectedUser.activityStatus}
-              {selectedUser.activityStatus === 'typing' && '...'}
-            </p>
-          </div>
-        </div>
-        <div className="flex-grow-1">
-          <ul className="list-inline float-end d-flex gap-1 mb-0">
-            <VideoCall selectedUser={selectedUser} />
-
-            <VoiceCall selectedUser={selectedUser} />
-
-            <ProfileDetail selectedUser={selectedUser} />
-
-            <Dropdown className="list-inline-item fs-20 d-none d-md-flex">
-              <DropdownToggle as={'a'} role="button" className="arrow-none text-dark" data-bs-toggle="dropdown" aria-expanded="false">
-                <IconifyIcon icon="bx:dots-vertical-rounded" />
-              </DropdownToggle>
-              <DropdownMenu className="dropdown-menu-end">
-                <DropdownItem>
-                  <IconifyIcon icon="ri:user-6-line" className="me-2" />
-                  View Profile
-                </DropdownItem>
-                <DropdownItem>
-                  <IconifyIcon icon="ri:music-2-line" className="me-2" />
-                  Media, Links and Docs
-                </DropdownItem>
-                <DropdownItem>
-                  <IconifyIcon icon="ri:search-2-line" className="me-2" />
-                  Search
-                </DropdownItem>
-                <DropdownItem>
-                  <IconifyIcon icon="ri:image-line" className="me-2" />
-                  Wallpaper
-                </DropdownItem>
-                <DropdownItem>
-                  <IconifyIcon icon="ri:arrow-right-circle-line" className="me-2" />
-                  More
-                </DropdownItem>
-              </DropdownMenu>
-            </Dropdown>
-          </ul>
-        </div>
-      </CardHeader>
-      <div className="chat-box">
-        <SimplebarReactClient className="chat-conversation-list p-3 chatbox-height">
-          {userMessages.map((message, idx) => (
-            <UserMessage message={message} toUser={toUser} key={idx} />
-          ))}
-          <AlwaysScrollToBottom />
-        </SimplebarReactClient>
-
-        <div className="bg-light bg-opacity-50 p-2">
-          <form className="needs-validation" name="chat-form" id="chat-form" onSubmit={handleSubmit(sendChatMessage)}>
-            <Row className="align-items-center">
-              <Col className="mb-2 mb-sm-0 d-flex">
-                <div className="input-group flex-nowrap">
-                  <Dropdown drop="up">
-                    <DropdownToggle
-                      type="button"
-                      className="btn btn-sm btn-primary rounded-start d-flex align-items-center input-group-text content-none">
-                      <IconifyIcon width={18} height={27} icon="ri:emotion-line" className="fs-18" />
-                    </DropdownToggle>
-                    <DropdownMenu className="p-0 rounded-4">
-                      <EmojiPicker data={data} theme={theme} onEmojiSelect={(e: any) => console.info(e.native)} />
-                    </DropdownMenu>
-                  </Dropdown>
-                  <TextFormInput
-                    noValidate
-                    control={control}
-                    name="newMessage"
-                    containerClassName="w-100"
-                    className="border-0 h-100"
-                    placeholder="Enter your message"
-                  />
-                </div>
-              </Col>
-              <Col sm={'auto'}>
-                <div className="d-flex gap-2">
-                  <Button variant="soft-success" size="sm">
-                    <IconifyIcon icon="ri:attachment-2" width={18} height={27} className="fs-18" />
-                  </Button>
-                  <Button variant="soft-warning" size="sm">
-                    <IconifyIcon icon="ri:video-on-line" width={18} height={27} className="fs-18" />
-                  </Button>
-                  <button type="submit" className="btn btn-primary btn-sm chat-send">
-                    <IconifyIcon icon="ri:send-plane-2-line" width={18} height={18} className=" fs-18" />
-                  </button>
-                </div>
-              </Col>
-            </Row>
-          </form>
-        </div>
-      </div>
+     <iframe
+           src="https://www.chatbase.co/chatbot-iframe/zkWE_LC0JMzanIA_Yj0Lx"
+            width="100%"
+            style={{ height: '50%', minHeight: '500px' }}
+            frameBorder="0" // Note: capitalized in React
+          ></iframe>
     </Card>
   )
 }

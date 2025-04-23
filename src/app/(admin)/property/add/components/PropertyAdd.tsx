@@ -55,7 +55,7 @@ const PropertyAdd = () => {
                 </label>
                 <div className="input-group mb-3">
                   <span className="input-group-text fs-20 px-2 py-0">
-                    <IconifyIcon icon="ri:money-dollar-circle-line" />
+                  <IconifyIcon icon="ri:money-euro-circle-line" />
                   </span>
                   <input type="number" id="property-price" className="form-control" placeholder={'000'} />
                 </div>

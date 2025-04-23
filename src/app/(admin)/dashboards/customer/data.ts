@@ -64,7 +64,7 @@ export const propertyOptions: ApexOptions = {
       right: 0,
     },
   },
-  colors: ['#efecfc', '#1e534f', '#1e534f', '#efecfc'],
+  colors: ['#efecfc', '#2b786c', '#2b786c', '#efecfc'],
   dataLabels: {
     enabled: !1,
   },
@@ -143,7 +143,7 @@ export const customersInvestOptions: ApexOptions = {
       colors: ['#304758'],
     },
   },
-  colors: ['#1e534f'],
+  colors: ['#2b786c'],
   legend: {
     show: true,
     horizontalAlign: 'center',
@@ -229,7 +229,7 @@ export const customerVisit: ApexOptions = {
   markers: {
     size: 0,
   },
-  colors: ['#1e534f'],
+  colors: ['#2b786c'],
   tooltip: {
     fixed: {
       enabled: false,

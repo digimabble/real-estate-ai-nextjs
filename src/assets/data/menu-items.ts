@@ -144,7 +144,7 @@ export const MENU_ITEMS: MenuItemType[] = [
   },
   {
     key: 'messages',
-    label: 'Messages',
+    label: 'La regence Chatbot',
     icon: 'ri:discuss-line',
     url: '/messages',
   },

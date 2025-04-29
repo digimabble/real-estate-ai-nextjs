@@ -37,7 +37,7 @@ const ChatApp = () => {
 
   return (
     <>
-      <Col xxl={3}>
+      {/* <Col xxl={3}>
         {users && selectedUser && (
           <>
             <Offcanvas
@@ -54,9 +54,9 @@ const ChatApp = () => {
             </div>
           </>
         )}
-      </Col>
+      </Col> */}
 
-      <Col xxl={9}>{selectedUser && <ChatArea selectedUser={selectedUser} />}</Col>
+      <Col xxl={12}>{selectedUser && <ChatArea selectedUser={selectedUser} />}</Col>
     </>
   )
 }

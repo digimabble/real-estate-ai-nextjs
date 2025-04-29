@@ -88,7 +88,7 @@ export const chartOptions: ApexOptions = {
       right: 0,
     },
   },
-  colors: ['#eef2f7', '#eef2f7', '#2b786c', '#eef2f7'],
+  colors: ['#eef2f7', '#eef2f7', '#caaa71', '#eef2f7'],
   dataLabels: {
     enabled: !1,
   },
@@ -146,7 +146,7 @@ export const salesChart: ApexOptions = {
       show: false,
     },
   },
-  colors: ['#47ad94', '#2b786c'],
+  colors: ['#47ad94', '#caaa71'],
   dataLabels: {
     enabled: false,
   },
@@ -349,7 +349,7 @@ export const salesOptions: ApexOptions = {
       right: 0,
     },
   },
-  colors: ['#2b786c', '#2b786c', '#2b786c', '#2b786c'],
+  colors: ['#caaa71', '#caaa71', '#caaa71', '#caaa71'],
   dataLabels: {
     enabled: !1,
   },

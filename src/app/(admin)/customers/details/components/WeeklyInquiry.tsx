@@ -31,7 +31,7 @@ const WeeklyInquiry = () => {
         right: 0,
       },
     },
-    colors: ['#2b786c', '#d3cbff', '#d3cbff', '#d3cbff'],
+    colors: ['#caaa71', '#d3cbff', '#d3cbff', '#d3cbff'],
     dataLabels: {
       enabled: true,
     },

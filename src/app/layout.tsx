@@ -15,7 +15,7 @@ const figtree = Figtree({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | La Regence Nextjs - Real Estate Management Admin Template',
+    template: '%s | Pavimmo Nextjs - Real Estate Management Admin Template',
     default: DEFAULT_PAGE_TITLE,
   },
   description: 'A fully responsive premium admin dashboard template, Real Estate Management Admin Template',
@@ -66,7 +66,7 @@ export default function RootLayout({
         <div id="splash-screen">
           <Image alt="Logo" width={112} height={24} src={logoDark} style={{ height: '6%', width: 'auto' }} priority />
         </div>
-        <NextTopLoader color="#2b786c" showSpinner={false} />
+        <NextTopLoader color="#caaa71" showSpinner={false} />
         <div id="__next_splash">
           <AppProvidersWrapper>{children}</AppProvidersWrapper>
         </div>

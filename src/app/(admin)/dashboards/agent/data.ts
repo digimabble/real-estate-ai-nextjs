@@ -141,7 +141,7 @@ export const salesFunnelOptions: ApexOptions = {
   markers: {
     size: 0,
   },
-  colors: ['#2b786c'],
+  colors: ['#caaa71'],
   tooltip: {
     fixed: {
       enabled: false,
@@ -235,7 +235,7 @@ export const agentOptions: ApexOptions = {
       borderRadius: 8,
     },
   },
-  colors: ['#2b786c', '#f8ac59'],
+  colors: ['#caaa71', '#f8ac59'],
   tooltip: {
     shared: true,
     y: [
@@ -310,7 +310,7 @@ export const goalsOptions: ApexOptions = {
   stroke: {
     dashArray: 4,
   },
-  colors: ['#2b786c'],
+  colors: ['#caaa71'],
   series: [75],
   labels: ['Achieved'],
   responsive: [

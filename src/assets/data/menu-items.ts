@@ -144,7 +144,7 @@ export const MENU_ITEMS: MenuItemType[] = [
   },
   {
     key: 'messages',
-    label: 'La regence Chatbot',
+    label: 'Pavimmo Chatbot',
     icon: 'ri:discuss-line',
     url: '/messages',
   },

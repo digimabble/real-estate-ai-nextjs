@@ -39,7 +39,7 @@ const useSignIn = () => {
       password: values?.password,
     }).then((res) => {
       if (res?.ok) {
-        push(queryParams['redirectTo'] ?? '/dashboards/analytics')
+        push(queryParams['redirectTo'] ?? '/dashboards/agent')
         showNotification({ message: 'Successfully logged in. Redirecting....', variant: 'success' })
       } else {
         showNotification({ message: res?.error ?? '', variant: 'danger' })
